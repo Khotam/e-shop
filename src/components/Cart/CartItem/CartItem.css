@@ -1,0 +1,58 @@
+.cart-item {
+  position: relative;
+}
+
+.cart-item h4 {
+  margin-bottom: 6px;
+}
+
+.img-wrapper {
+  height: 100%;
+  max-width: 70px;
+  float: left;
+  margin-right: 15px;
+}
+
+.img-wrapper img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.name {
+  font-size: 17px;
+  font-weight: 700;
+}
+.btn-subtract,
+.btn-add {
+  color: darkgoldenrod;
+  border: 1px solid darkgoldenrod;
+  background: none;
+  padding: 3px 14px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.btn-subtract {
+  margin: 0 8px;
+}
+.cart-item .btn-add {
+  margin-left: 8px;
+}
+
+.price {
+  font-weight: 600;
+  color: #555;
+  font-size: 1.2rem;
+}
+
+.remove-cart-item-btn {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  font-size: 30px;
+  color: darksalmon;
+  border: none;
+  background: none;
+  cursor: pointer;
+}

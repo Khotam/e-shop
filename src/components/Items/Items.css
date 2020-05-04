@@ -1,0 +1,13 @@
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.category-title {
+  text-align: center;
+  text-transform: capitalize;
+  margin: 1rem 0;
+}

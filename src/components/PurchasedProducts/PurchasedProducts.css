@@ -1,0 +1,14 @@
+.purchased-products {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  margin: 5vh 0;
+}
+
+.purchased-products ul {
+  height: 100%;
+  list-style-type: none;
+  padding: 1rem;
+  border: 1px solid #ebebeb;
+  overflow: scroll;
+}
